@@ -1,0 +1,389 @@
+/*CSS resets for cross browser compatibility*/
+
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-block}progress,sub,sup{vertical-align:baseline}[type=checkbox],[type=radio],legend{box-sizing:border-box;padding:0}html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{padding:.35em .75em .625em}legend{color:inherit;display:table;max-width:100%;white-space:normal}textarea{overflow:auto}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden],template{display:none}
+
+body {
+    font-family: Arial;
+}
+
+.space {
+    margin-right: 32px;
+}
+
+input.search-input {
+    border: none;
+    border-radius: 0;
+    background: rgba(255,255,255,.16);
+    height:48px;
+    height: 3rem;
+    font-size: 18px;
+    box-sizing: inherit;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    -webkit-transition:unset;
+    transition: unset;
+}
+
+.react-autosuggest__input::-webkit-input-placeholder {
+    color: white;
+}
+
+.react-autosuggest__input::-moz-placeholder {
+    color: white;
+}
+
+.react-autosuggest__input:-ms-input-placeholder {
+    color: white;
+}
+
+.react-autosuggest__input::placeholder {
+    color: white;
+}
+
+.react-autosuggest__input {
+    color: white;
+}
+
+input[type=text]:focus:not([readonly])+label,
+input[type=password]:focus:not([readonly])+label,
+input[type=email]:focus:not([readonly])+label  {
+    color: #4683ea;
+}
+
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly])  {
+    border-bottom: 1px solid #4683ea;
+    box-shadow: 0 1px 0 0 #4683ea;
+}
+
+.material-icons {
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    position: relative;
+}
+
+.burrah{
+    width: 350px !important;
+    margin-left: 75px !important;
+}
+
+.nav {
+    margin-top: 100px;
+}
+
+
+.jumbotron {
+    background: #eee;
+    border-radius: 2px;
+    display: inline-block;
+    margin:16px;
+    margin: 1rem;
+    position: relative;
+    width: 800px;
+    padding: 5%;
+}
+
+.jumbotron:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+.video-jumbo {
+    background: #eee;
+    border-radius: 2px;
+    display: inline-block;
+    margin:3.2px;
+    margin: 0.2rem;
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.video-jumbo:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+
+.active {
+    border-bottom-color: #4683ea;
+}
+
+.login-btn {
+    color: #4683ea !important;
+}
+
+.btn {
+    background-color: #4683ea !important;
+    font-size: 18px;
+}
+
+.enroll {
+    color: white !important;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #4683ea !important;
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+h5 {
+    color: #4683ea;
+    margin: 25px 0 0 0;
+}
+
+
+h4 {
+    color: #4683ea;
+    font-weight: bold;
+    margin: 25px 0 0 0;
+}
+
+.button-live {
+    margin-top: 50px;
+}
+
+.home-img{
+    background-image: url("../app/pages/HomePage/course-images/home.jpg");
+    max-width: 100%;
+    height: 467px;
+    background-size: cover;
+}
+
+.course-img {
+    width: 85%;
+    margin: 7%;
+}
+
+.abc{
+    position: absolute;
+    margin-top: 90px;
+}
+
+.text-name {
+    margin: 0 15px 0 15px;
+    font-size: 18px;
+    color: white;
+}
+
+.text-over {
+    color: white;
+    position: absolute;
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+    font-size: 38px;
+}
+
+.waves-effect {
+    color: white !important;
+}
+
+.nav-text {
+    font-size: 20px;
+    color: white;
+}
+
+.nav-fixed {
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+}
+
+nav {
+    background-color: #4683ea;
+}
+
+nav ul a {
+    font-size: large;
+    text-align: center;
+    color: white !important;
+}
+
+a:hover {
+    color: white;
+    text-decoration: unset;
+}
+
+a:active {
+    color: white;
+    text-decoration: unset;
+}
+
+.create-acc {
+    color: #039be5 !important;
+}
+
+
+
+.mt80 {
+    margin-top: 80px;
+}
+
+.mt70 {
+    margin-top: 70px;
+}
+
+.card-align{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card .card-content {
+    padding: 6px;
+    border-radius: 0 0 0px 0px;
+    height: 60px;
+}
+
+.card {
+    height: 222px;
+}
+
+.card .card-image img {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 222px;
+}
+
+.card .card-image .card-title {
+    color: #fff;
+    position: absolute;
+    padding-top: 40%;
+    padding-bottom: 30%;
+    padding-left: 24%;
+}
+
+.video-heading {
+    line-height: 1em;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    text-align: left;
+    margin-left: 1px;
+}
+
+.video-detail {
+    margin: 20px 20px 20px 10px;
+}
+
+.video-card {
+    height: 100px;
+}
+
+.video-card .video-card-image img {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    margin: 12px 5px 0px 0;
+}
+
+.react-autosuggest__container {
+    position: relative;
+}
+
+.react-autosuggest__input {
+    width: 240px;
+    height: 30px;
+    padding: 10px 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.react-autosuggest__input--focused {
+    outline: none;
+}
+
+.react-autosuggest__input--open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+    display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    top: 51px;
+    width: 280px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    max-height: 100px;
+    overflow-y: auto;
+    z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+    background-color: #ddd;
+}
+
+nav {
+    color: black;
+}
+
+.divider {
+    height: 1px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+    margin-left: 43px;
+    margin-right: 31px;
+    margin-top: 17px;
+}
+
+.brandname {
+    margin-left: 50px !important;
+}
+
+.loader-position {
+    padding-left: 655px;
+    padding-right: 20px;
+    padding-top: 59px;
+}
+
+.about-description {
+    padding-left: 100px;
+    padding-top: 35px;
+    padding-bottom: 50px; 
+}
